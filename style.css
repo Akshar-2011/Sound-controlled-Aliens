@@ -1,0 +1,46 @@
+body{
+    font-family: 'Zen Old Mincho', serif;
+    background-color: lightblue;
+}
+.header_div{
+    background: white;
+    color: red;
+}
+.header_div p{
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.main_div button{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    width: 120px;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px grey;
+    transform: scale(10px 2s);
+}
+.main_div button:hover{
+    transition: width 2s ;
+}
+.copy_right_footer{
+    background-color: white;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: plum;
+    bottom: 0;
+    animation-name: example;
+    animation-duration: 4s;
+    text-shadow: 5px 5px 5px gray;
+    position: fixed;
+}
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  
